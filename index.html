@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <title>RUNFLIX</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">RUNFLIX</h2>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">News</a>
+                <a href="#">Races</a>
+                <a href="#">Ranking</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="corrida-principal">
+            <div class="container">
+                <h2 class="titulo">Welcome to World Majors Marathon</h2>
+                <p class="descricao">The World Marathon Majors (WMM) is a championship-style competition for marathon runners that started in 2006. A points-based competition founded on six major marathon races recognised as the most high-profile on the calendar, the series comprises annual races for the cities of Tokyo, Boston, London, Berlin, Chicago and New York.</p>
+                <div class="b">
+                    <button role="button" class="botao" onclick="botaoAbbott()">
+                        <i class="fa-regular fa-person-running"></i>
+                        ABBOTT Website
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="majors">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-run" src="img/tokio.svg" alt="" srcset="" onclick="tokyo()">
+            </div>
+            <div class="item">
+                <img class="box-run" src="img/boston.png" alt="" srcset="" onclick="boston()">
+            </div>
+            <div class="item">
+                <img class="box-run" src="img/london.png" alt="" srcset="" onclick="london()">
+            </div>
+            <div class="item">
+                <img class="box-run" src="img/berlin.png" alt="" srcset="" onclick="berlin()">
+            </div>
+            <div class="item">
+                <img class="box-run" src="img/chicago.png" alt="" srcset="" onclick="chicago()">
+            </div>
+            <div class="item">
+                <img class="box-run" src="img/nycity.png" alt="" srcset="" onclick="newyork()">
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/7c4e39cbb7.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+</body>
+</html>

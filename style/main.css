@@ -1,0 +1,105 @@
+:root{
+    --vermelho: #e50914;
+    --preta:#141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    font-family: 'Arial', Times, serif;
+    color: #fff;
+}
+
+header .container{    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+header .logo{
+    margin-left: 5px;
+    color: rgb(94, 94, 240);
+    font-family: 'Arial Black', 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+.corrida-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/100m.jpg');
+    height: 350px;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.corrida-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.corrida-principal .titulo{
+    font-size: 40px;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.container {
+    margin-left: 15px;
+}
+
+
+.corrida-principal .container {
+    width: 150%;
+}
+
+.box-run{
+    height: 90%;
+    width: 80%;
+    display: block;
+}
+
+.majors{
+    margin-top: 5px;
+    justify-items: ;
+}
+
+.item:hover{
+    background-color: lightblue;
+    color: black;
+}
